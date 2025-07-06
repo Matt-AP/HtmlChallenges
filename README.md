@@ -32,4 +32,4 @@ Welcome to the **HTML & CSS Challenges** repository! This is your playground to 
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/your-username/html-css-challenges.git
+   [git clone https://github.com/your-username/html-css-challenges.git](https://github.com/Matt-AP/HtmlChallenges.git)
