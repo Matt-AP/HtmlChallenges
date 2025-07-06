@@ -73,3 +73,42 @@ p {
 .btn:hover {
     background-color: #bebebe;
 }
+
+.container-two {
+    display: flex;
+    align-items: flex-start;
+    /* o center, según tu diseño */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* si quieres que baje en pantallas pequeñas */
+    gap: 20px;
+    /* separa ambos hijos sin márgenes extras */
+    /* …tus otras reglas… */
+}
+
+/* Imagen (lado verde) */
+.container-two img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.container-two div {
+    flex: 1 1 60%;
+    /* crece, encoge, base 60% */
+}
+
+.container-two h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.container-two p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+}
